@@ -44,7 +44,7 @@ const Home = () => {
       </section>
       <section className="catalog">
         <div className="catalog__title">
-          <h1>{value.length > 0 ? "Поиск по сайту" : "Все кроссовки"}</h1>
+          <h1>{value.length > 0 ? "Поиск по сайту.." : "Все кроссовки"}</h1>
           <Search
             value={inputSearchValue}
             handleInputChange={(value) => handleInputChange(value)}
